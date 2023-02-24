@@ -1,0 +1,35 @@
+/* 전체 컨테이너 */
+.wrap {
+  margin: 200px auto;
+  width: 800px;
+}
+
+/* 전광판 배경색 */
+.wrap-bar-bg {
+  background-color: #6756b3;
+  overflow: hidden;
+  position: relative;
+  height: 50px;
+}
+
+/* text 덩어리의 전체 부분 */
+/* 가로배치 */
+.text {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+/* text 한 덩어리 */
+.text-item {
+  width: 25%;
+  flex-grow: 0;
+  flex-shrink: 0;
+  text-align: center;
+  padding: 0px 10px;
+  color: #fff;
+  font-size: 12px;
+  line-height: 50px
+}
